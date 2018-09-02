@@ -48,7 +48,7 @@ MIT
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
-[build-badge]: https://img.shields.io/travis/GabrielDuarteM/generator-gd-scripts.svg?style=flat-square
+[build-badge]: https://img.shields.io/travis/com/GabrielDuarteM/generator-gd-scripts/master.svg
 [build]: https://travis-ci.com/GabrielDuarteM/generator-gd-scripts
 [version-badge]: https://img.shields.io/npm/v/generator-gd-scripts.svg?style=flat-square
 [package]: https://www.npmjs.com/package/generator-gd-scripts
