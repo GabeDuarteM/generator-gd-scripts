@@ -20,11 +20,11 @@
 
 ## The problem
 
-// TODO
+I have to do a lot of repetitive stuff every time I set up a new open source project.
 
 ## This solution
 
-// TODO
+This is a yeoman generator for my open source projects
 
 ## Installation
 
