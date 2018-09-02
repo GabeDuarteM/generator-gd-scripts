@@ -57,7 +57,7 @@ MIT
 [node]: https://nodejs.org
 
 [build-badge]: https://img.shields.io/travis/GabrielDuarteM/<%= name %>.svg?style=flat-square
-[build]: https://travis-ci.org/GabrielDuarteM/<%= name %>
+[build]: https://travis-ci.com/GabrielDuarteM/<%= name %>
 [coverage-badge]: https://img.shields.io/codecov/c/github/GabrielDuarteM/<%= name %>.svg?style=flat-square
 [coverage]: https://codecov.io/github/GabrielDuarteM/<%= name %>
 [version-badge]: https://img.shields.io/npm/v/<%= name %>.svg?style=flat-square
