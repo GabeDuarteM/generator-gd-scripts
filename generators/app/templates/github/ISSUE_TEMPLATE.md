@@ -13,7 +13,7 @@ understand what's going on and fix the issue.
 <!-- Also, to avoid duplicate issues, please check off the following list. -->
 <!-- Checked checkbox should look like this: [x] -->
 
-- [ ] I have searched the [issues](https://github.com/GabrielDuarteM/generator-gd-scripts/issues) of this repository and believe that this is not a duplicate.
+- [ ] I have searched the [issues](https://github.com/GabrielDuarteM/<%= name %>/issues) of this repository and believe that this is not a duplicate.
 
 ## Your Environment
 
