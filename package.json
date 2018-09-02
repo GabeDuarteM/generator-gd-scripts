@@ -1,0 +1,38 @@
+{
+  "name": "generator-gd-scripts",
+  "version": "0.0.0-development",
+  "author": "Gabriel Duarte (https://www.gabrielduarte.tech)",
+  "license": "MIT",
+  "description": "A generator to start up my projects",
+  "scripts": {
+    "ci": "gd-scripts lint"
+  },
+  "keywords": [
+    "gd-scripts",
+    "typescript",
+    "babel",
+    "eslint",
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "repository": "GabrielDuarteM/generator-gd-scripts",
+  "bugs": {
+    "url": "https://github.com/GabrielDuarteM/generator-gd-scripts/issues"
+  },
+  "homepage": "https://github.com/GabrielDuarteM/generator-gd-scripts#readme",
+  "main": "generators/index.js",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "gd-scripts": "^1.3.1",
+    "prettier": "^1.14.2",
+    "semantic-release": "^15.9.12"
+  },
+  "dependencies": {
+    "lodash.kebabcase": "^4.1.1",
+    "yeoman-generator": "^3.1.1"
+  }
+}

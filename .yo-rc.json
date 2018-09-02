@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Gabriel Duarte",
+      "authorEmail": "gabrielqduarte@gmail.com",
+      "authorUrl": "https://www.gabrielduarte.tech"
+    }
+  }
+}
