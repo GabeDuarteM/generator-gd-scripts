@@ -5,7 +5,8 @@
   "license": "MIT",
   "description": "A generator to start up my projects",
   "scripts": {
-    "ci": "gd-scripts lint"
+    "ci": "gd-scripts lint",
+    "release": "semantic-release"
   },
   "keywords": [
     "gd-scripts",
