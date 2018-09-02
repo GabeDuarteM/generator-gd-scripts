@@ -55,7 +55,7 @@ MIT
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
-[build-badge]: https://img.shields.io/travis/com/GabrielDuarteM/<%= name %>/master.svg
+[build-badge]: https://img.shields.io/travis/com/GabrielDuarteM/<%= name %>/master.svg?style=flat-square
 [build]: https://travis-ci.com/GabrielDuarteM/<%= name %>
 [coverage-badge]: https://img.shields.io/codecov/c/github/GabrielDuarteM/<%= name %>.svg?style=flat-square
 [coverage]: https://codecov.io/github/GabrielDuarteM/<%= name %>
