@@ -1,38 +1,69 @@
-# generator-gd-scripts [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+<div align="center">
+  <h1>generator-gd-scripts</h1>
 
-> Generates an app using gd-scripts
+  <p>A generator to start up my projects</p>
+</div>
+
+<hr />
+
+[![Build Status][build-badge]][build]
+[![version][version-badge]][package]
+[![downloads][downloads-badge]][npmtrends]
+[![MIT License][license-badge]][license]
+
+[![PRs Welcome][prs-badge]][prs]
+[![Code of Conduct][coc-badge]][coc]
+
+[![Watch on GitHub][github-watch-badge]][github-watch]
+[![Star on GitHub][github-star-badge]][github-star]
+[![Tweet][twitter-badge]][twitter]
+
+## The problem
+
+// TODO
+
+## This solution
+
+// TODO
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-gd-scripts using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [`yeoman`](http://yeoman.io) and `generator-gd-scripts` using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-npm install -g yo
-npm install -g generator-gd-scripts
+npm install -g yo generator-gd-scripts
 ```
 
-Then generate your new project:
+## Usage
+
+Run the following inside the folder of your new project:
 
 ```bash
 yo gd-scripts
 ```
 
-## Getting To Know Yeoman
+## LICENSE
 
-- Yeoman has a heart of gold.
-- Yeoman is a person with feelings and opinions, but is very easy to work with.
-- Yeoman can be too opinionated at times but is easily convinced not to be.
-- Feel free to [learn more about Yeoman](http://yeoman.io/).
+MIT
 
-## License
-
-MIT © [Gabriel Duarte](https://www.gabrielduarte.tech)
-
-[npm-image]: https://badge.fury.io/js/generator-gd-scripts.svg
-[npm-url]: https://npmjs.org/package/generator-gd-scripts
-[travis-image]: https://travis-ci.org/GabrielDuarteM/generator-gd-scripts.svg?branch=master
-[travis-url]: https://travis-ci.org/GabrielDuarteM/generator-gd-scripts
-[daviddm-image]: https://david-dm.org/GabrielDuarteM/generator-gd-scripts.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/GabrielDuarteM/generator-gd-scripts
-[coveralls-image]: https://coveralls.io/repos/GabrielDuarteM/generator-gd-scripts/badge.svg
-[coveralls-url]: https://coveralls.io/r/GabrielDuarteM/generator-gd-scripts
+[npm]: https://www.npmjs.com/
+[node]: https://nodejs.org
+[build-badge]: https://img.shields.io/travis/GabrielDuarteM/generator-gd-scripts.svg?style=flat-square
+[build]: https://travis-ci.org/GabrielDuarteM/generator-gd-scripts
+[version-badge]: https://img.shields.io/npm/v/generator-gd-scripts.svg?style=flat-square
+[package]: https://www.npmjs.com/package/generator-gd-scripts
+[downloads-badge]: https://img.shields.io/npm/dm/generator-gd-scripts.svg?style=flat-square
+[npmtrends]: http://www.npmtrends.com/generator-gd-scripts
+[license-badge]: https://img.shields.io/npm/l/generator-gd-scripts.svg?style=flat-square
+[license]: https://github.com/GabrielDuarteM/generator-gd-scripts/blob/master/LICENSE
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: http://makeapullrequest.com
+[donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
+[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
+[coc]: https://github.com/GabrielDuarteM/generator-gd-scripts/blob/master/other/CODE_OF_CONDUCT.md
+[github-watch-badge]: https://img.shields.io/github/watchers/GabrielDuarteM/generator-gd-scripts.svg?style=social
+[github-watch]: https://github.com/GabrielDuarteM/generator-gd-scripts/watchers
+[github-star-badge]: https://img.shields.io/github/stars/GabrielDuarteM/generator-gd-scripts.svg?style=social
+[github-star]: https://github.com/GabrielDuarteM/generator-gd-scripts/stargazers
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20generator-gd-scripts%20by%20%40GabrielDuarteM%20https%3A%2F%2Fgithub.com%2FGabrielDuarteM%2Fgenerator-gd-scripts%20%F0%9F%91%8D
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/GabrielDuarteM/generator-gd-scripts.svg?style=social
