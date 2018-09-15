@@ -9,7 +9,7 @@
     "build": "gd-scripts build",
     "ci": "gd-scripts ci",
     "lint": "gd-scripts lint",
-    "type-check": "gd-scripts type-check"
+    "typecheck": "gd-scripts typecheck"
   },
   "keywords": [],
   "files": ["build"],
