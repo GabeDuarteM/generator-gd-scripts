@@ -1,1 +1,1 @@
-module.exports = require("gd-scripts/eslint")
+module.exports = require('gd-scripts/eslint')
