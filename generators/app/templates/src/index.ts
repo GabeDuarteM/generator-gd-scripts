@@ -1,3 +1,5 @@
-const message: string = "Hello world"
+let message: string
+message = 'Hello '
+message += 'world'
 
 console.log(message)

@@ -12,7 +12,7 @@
     "typecheck": "gd-scripts typecheck"
   },
   "keywords": [],
-  "files": ["build"],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "https://github.com/GabrielDuarteM/<%= name %>.git"

@@ -38,7 +38,6 @@ module.exports = class extends Generator {
 
     this.fs.copyTpl([`${this.templatePath()}/**`], this.destinationPath(), {
       ...this.answers,
-      year: new Date().getFullYear(),
     })
 
     mv("gitattributes", ".gitattributes")
@@ -48,7 +47,6 @@ module.exports = class extends Generator {
     mv("github/ISSUE_TEMPLATE.md", ".github/ISSUE_TEMPLATE.md")
     mv("github/PULL_REQUEST_TEMPLATE.md", ".github/PULL_REQUEST_TEMPLATE.md")
     mv("github/USERS.md", ".github/USERS.md")
-    mv("_.eslintignore", ".eslintignore")
     mv("_.eslintrc.js", ".eslintrc.js")
     mv("_.prettierignore", ".prettierignore")
     mv("_.prettierrc.js", ".prettierrc.js")
@@ -57,16 +55,13 @@ module.exports = class extends Generator {
 
   install() {
     this.spawnCommand("git", ["init"])
-    this.npmInstall(
+    this.yarnInstall(
       [
         "gd-scripts",
-        "eslint-plugin-import",
-        "eslint-plugin-prettier",
-        "prettier",
-        "babel-core@^7.0.0-bridge.0",
+        "@types/node"
       ],
-      { "save-dev": true },
+      { "dev": true ,exact:true},
     )
-    this.installDependencies({ bower: false })
+    // this.installDependencies({ bower: false, npm: false })
   }
 }
