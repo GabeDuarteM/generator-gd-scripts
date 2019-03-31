@@ -19,6 +19,15 @@
 [![Star on GitHub][github-star-badge]][github-star]
 [![Tweet][twitter-badge]][twitter]
 
+## Installation
+
+This module is distributed via [npm][npm] which is bundled with [node][node] and
+should be installed as one of your project's <% if (devDep) { %>`devDependencies`<% } %><% if (!devDep) { %>`dependencies`<% } %>:
+
+```bash
+npm install --save<% if (devDep) { %>-dev<% } %> <%= name %>
+```
+
 ## The problem
 
 // TODO
@@ -26,15 +35,6 @@
 ## This solution
 
 // TODO
-
-## Installation
-
-This module is distributed via [npm][npm] which is bundled with [node][node] and
-should be installed as one of your project's <% if (devDep) { %>`devDependencies`<% } %><% if (!devDep) { %>`dependencies`<% } %>:
-
-```
-npm install --save<% if (devDep) { %>-dev<% } %> <%= name %>
-```
 
 ## Usage
 
@@ -55,6 +55,7 @@ MIT
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
+
 [build-badge]: https://img.shields.io/travis/com/GabrielDuarteM/<%= name %>/master.svg?style=flat-square
 [build]: https://travis-ci.com/GabrielDuarteM/<%= name %>
 [coverage-badge]: https://img.shields.io/codecov/c/github/GabrielDuarteM/<%= name %>.svg?style=flat-square
@@ -63,7 +64,7 @@ MIT
 [package]: https://www.npmjs.com/package/<%= name %>
 [downloads-badge]: https://img.shields.io/npm/dm/<%= name %>.svg?style=flat-square
 [npmtrends]: http://www.npmtrends.com/<%= name %>
-[license-badge]: https://img.shields.io/npm/l/<%= name %>.svg?style=flat-square
+[license-badge]: https://img.shields.io/github/license/GabrielDuarteM/<%= name %>.svg?style=flat-square
 [license]: https://github.com/GabrielDuarteM/<%= name %>/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com

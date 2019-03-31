@@ -43,6 +43,7 @@ module.exports = class extends Generator {
     mv('gitattributes', '.gitattributes')
     mv('gitignore', '.gitignore')
     mv('travis.yml', '.travis.yml')
+    mv('npmrc', '.npmrc')
     mv('_package.json', 'package.json')
     mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md')
     mv('github/PULL_REQUEST_TEMPLATE.md', '.github/PULL_REQUEST_TEMPLATE.md')
@@ -56,6 +57,5 @@ module.exports = class extends Generator {
   install() {
     this.spawnCommand('git', ['init'])
     this.yarnInstall(['gd-scripts', '@types/node'], { dev: true, exact: true })
-    // this.installDependencies({ bower: false, npm: false })
   }
 }

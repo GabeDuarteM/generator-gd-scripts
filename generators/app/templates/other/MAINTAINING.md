@@ -56,7 +56,7 @@ in mind, **please brush up on [the commit message convention][commit] which driv
 > more than once where someone will include "BREAKING CHANGE: None" and it will end up releasing
 > a new major version. Not a huge deal honestly, but kind of annoying...<% } %>
 
-## Thanks!
+## Thanks
 
 Thank you so much for helping to maintain this project!
 

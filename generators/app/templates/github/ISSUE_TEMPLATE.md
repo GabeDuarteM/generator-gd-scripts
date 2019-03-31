@@ -19,30 +19,30 @@ understand what's going on and fix the issue.
 
 <!--- Include as many relevant details about the environment with which you experienced the bug. -->
 
-| Tech              | Version |
-| ----------------- | ------- |
-| <%= name %>       |         |
-| node              |         |
-| `npm` (or `yarn`) |         |
+- `<%= name %>` version:
+- `node` version:
+- `npm` (or `yarn`) version:
 
 Relevant code or config
 
-```javascript
+```js
 ```
 
-## What you did:
+## What you did and problem description
 
-## What happened:
+<!-- Describe here what you did for the issue to happen and describe what the problem is -->
+
+## What happened
 
 <!-- Please provide the full error message/screenshots/anything -->
 
-## Reproduction repository/codesandbox:
+## Reproduction repository/CodeSandbox
 
 <!--
-If possible, please create a repository/codesandbox that reproduces the issue with the
+If possible, please create a repository/CodeSandbox (https://codesandbox.io) that reproduces the issue with the
 minimal amount of code possible.
 -->
 
-## Problem description:
+## Suggested solution
 
-## Suggested solution:
+<!-- Describe here what you think would be the best solution for the issue you experienced -->

@@ -12,51 +12,50 @@ Please fill out the information below to expedite the review and (hopefully)
 merge of your pull request!
 -->
 
-<!-- What changes are being made? (What feature/bug is being fixed here?) -->
-
 # Pull Request
 
-**What**:
-
-<!-- Why is this change necessary? What problem does it solve? -->
-
-**Why**:
-
-<!-- How were these changes implemented? -->
-
-**How**:
-
-<!-- Have you done all of these things?  -->
-
-**Screenshots**:
-
-<!-- Include screenshots of the problem, if applicable -->
-
-**How Has This Been Tested?**
-
-<!-- Please describe in detail how you tested your changes. -->
-<!-- Include details of your testing environment, and the tests you ran to -->
-<!-- see how your change affects other areas of the code, etc. -->
-
-**Related issue**
+## Related issue
 
 <!-- This project only accepts pull requests related to open issues -->
 <!-- If suggesting a new feature or change, please discuss it in an issue first -->
 <!-- If fixing a bug, there should be an issue describing it with steps to reproduce -->
 <!-- Please link to the issue here: -->
 
-**Type of change**
+## Description
 
-<!-- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
+<!-- What changes are being made in this PR? (What feature/bug is being fixed here? -->
+
+## Why
+
+<!-- Why is this change necessary? What problem does it solve? -->
+
+## How
+
+<!-- How were these changes implemented? -->
+
+## Screenshots
+
+<!-- Include screenshots of the problem, if applicable -->
+
+## How has this been tested
+
+<!-- Please describe in detail how you tested your changes. -->
+<!-- Include details of your testing environment, and the tests you ran to -->
+<!-- see how your change affects other areas of the code, etc. -->
+
+## Type of change
+
+<!-- What types of changes does your code introduce? -->
+<!-- To check an item, place an "x" in the box like so: "- [x] Documentation" -->
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to change)
 
-**Checklist**:
+## Checklist
 
-<!-- add "N/A" to the end of each line that's irrelevant to your changes -->
-<!-- to check an item, place an "x" in the box like so: "- [x] Documentation" -->
+<!-- Add "N/A" to the end of each line that's irrelevant to your changes -->
+<!-- To check an item, place an "x" in the box like so: "- [x] Documentation" -->
 
 - [ ] Documentation
 - [ ] Tests
