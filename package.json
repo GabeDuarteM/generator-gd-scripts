@@ -26,7 +26,7 @@
   "homepage": "https://github.com/GabrielDuarteM/generator-gd-scripts#readme",
   "main": "generators/index.js",
   "devDependencies": {
-    "gd-scripts": "5.0.1",
+    "gd-scripts": "5.0.9",
     "semantic-release": "15.13.3"
   },
   "dependencies": {
