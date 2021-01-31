@@ -31,6 +31,6 @@
   },
   "dependencies": {
     "lodash.kebabcase": "4.1.1",
-    "yeoman-generator": "3.2.0"
+    "yeoman-generator": "4.13.0"
   }
 }
