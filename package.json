@@ -27,7 +27,7 @@
   "main": "generators/index.js",
   "devDependencies": {
     "gd-scripts": "5.0.1",
-    "semantic-release": "15.13.3"
+    "semantic-release": "17.3.8"
   },
   "dependencies": {
     "lodash.kebabcase": "4.1.1",
